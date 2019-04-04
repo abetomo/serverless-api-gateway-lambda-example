@@ -1,0 +1,19 @@
+service: example
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+  logRetentionInDays: 30
+  apiKeys:
+    - apiKey1
+
+functions:
+  test:
+    handler: handler.main
+    events:
+      - http:
+          path: /
+          method: get
+          private: true # Use API Keys

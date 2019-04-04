@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "sls deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abetomo/serverless-api-gateway-lambda-example.git"
+  },
+  "author": "abetomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abetomo/serverless-api-gateway-lambda-example/issues"
+  },
+  "homepage": "https://github.com/abetomo/serverless-api-gateway-lambda-example#readme",
+  "dependencies": {
+    "serverless": "^1.40.0"
+  }
+}
