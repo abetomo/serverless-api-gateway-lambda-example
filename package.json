@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/abetomo/serverless-api-gateway-lambda-example#readme",
   "dependencies": {
-    "serverless": "^1.67.2"
+    "serverless": "^1.78.1"
   }
 }
