@@ -16,7 +16,7 @@
     "url": "https://github.com/abetomo/serverless-api-gateway-lambda-example/issues"
   },
   "homepage": "https://github.com/abetomo/serverless-api-gateway-lambda-example#readme",
-  "dependencies": {
-    "serverless": "^1.83.0"
+  "devDependencies": {
+    "serverless": "^2.18.0"
   }
 }
